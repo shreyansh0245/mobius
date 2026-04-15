@@ -36,7 +36,7 @@ jobs:
           run_block = install_step.get('run', '')
           if 'pip install .' not in run_block:
               raise SystemExit('build workflow must install the project with pip install .')
-            if 'pip install -e' in run_block:
+          if 'pip install -e' in run_block:
               raise SystemExit('build workflow must not install the dependency manually')
           PY
 
