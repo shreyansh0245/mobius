@@ -5,3 +5,5 @@ __pycache__/
 *.egg-info/
 solution.md
 MAINTAINER_FLOW.md
+.venv/
+build/

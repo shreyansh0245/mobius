@@ -4,7 +4,7 @@ import logging
 from pathlib import Path
 from typing import Any
 
-from osmium import parse_frontmatter, normalize_metadata
+from osmium import parse_frontmatter
 from markdown import Markdown
 
 from .models import Page
